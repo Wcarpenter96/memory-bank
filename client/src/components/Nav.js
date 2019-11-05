@@ -1,14 +1,19 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar, Button, Form } from 'react-bootstrap';
 
 export default (props) => {
     return (
         <div>
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand>Memory Bank</Navbar.Brand>
-                <Nav className="mr-auto">
-                    <Nav.Link href='/'>Restart</Nav.Link>
-                </Nav>
+                <Navbar.Brand href="/" >MemoryBank</Navbar.Brand>
+                <Navbar.Text>
+                    Score: 100
+                    </Navbar.Text>
+                <Navbar.Collapse className="justify-content-end">
+                    <Form inline>
+                        <Button variant="outline-danger">Restart</Button>
+                    </Form>
+                </Navbar.Collapse>
             </Navbar>
         </div>
     )
