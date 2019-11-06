@@ -5,12 +5,12 @@ import './style.css'
 
 export default (props) => {
     return (
-        <div className="box">
-        <Button onClick={() => props.handleClick(props.icon) } variant="primary" size="lg">
-            <h2>
-                <FontAwesomeIcon icon={['fab', props.icon]} />
-            </h2>
-        </Button>
+        <div className="box" >
+            <Button className={props.animation}
+                onClick={() => props.handleClick(props.icon)}
+                variant="primary" size="lg" >
+                <h2><FontAwesomeIcon icon={['fab', props.icon]} /></h2>
+            </Button>
         </div>
     )
 }
