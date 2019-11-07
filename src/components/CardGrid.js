@@ -1,5 +1,5 @@
 import React from 'react';
-import IconCard from './../components/IconCard'
+import IconCard from './IconCard'
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default (props) => {

@@ -45,6 +45,7 @@ class App extends Component {
   }
 
   handleClick = (icon) => {
+    console.log(this.state)
     this.setState({
       animation: ''
     })
