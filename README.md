@@ -1,6 +1,6 @@
-# FriendFinder
+# Memory Bank
 
-https://friend-finder-weston.herokuapp.com/ A memory game built in React
+ A memory game built in React
 
 ---
 
