@@ -12,6 +12,20 @@ Press the `Restart` button at any time to restart.
 
 Good Luck!
 
+### Download and Run
+
+Once you have cloned the repository, make sure that you are in the correct directory and run the command 
+
+```
+npm  i
+```
+to install all node package dependencies. Once the installation is finished, run the command
+
+```
+npm  start
+```
+The server will be hosted on Port 3000.
+
 ---
 
 Technologies: 
